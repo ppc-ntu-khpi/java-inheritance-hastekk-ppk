@@ -1,4 +1,14 @@
+
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10196224)
+
+## Практична робота "Реалізація успадкування"
+## Макаренко Артем
+Результат роботи
+![Animal](images/Animal.png "Текст заголовка логотипа 1")
+![Raccoon](images/Raccoon.png "Текст заголовка логотипа 1")
+![TestAnimal](images/TestAnimal.png "Текст заголовка логотипа 1")
+![Diagram](images/Diagram.png "Текст заголовка логотипа 1"
+
 # Практична робота "Реалізація успадкування"
 Цей репозиторій містить приклад виконання та інструкції для виконання практичної роботи з наслідування в JAVA. 
 
