@@ -11,7 +11,7 @@
 ![Dog_1](images/Dog_1.png "Текст заголовка логотипа 1")
 ![Dog_2](images/Dog_2.png "Текст заголовка логотипа 1")
 ## Код з TestAnimal
-![TestAnimal](images/TestAnimal.png "Текст заголовка логотипа 1")
+![TestAnimal](images/Test_Animal.png "Текст заголовка логотипа 1")
 
 
 
