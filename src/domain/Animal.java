@@ -1,52 +1,88 @@
 package domain;
 
-public class Animal {
 
-    protected String name;
+/**
+ * The class Abstract animal
+ */
+public abstract class Animal {
 
-    protected boolean is_a_predator;
-    
-    protected int weight;
+    protected String Name;
+    protected int Age;
+    protected float Weight;
+    public boolean WantsToEat;
 
-    public Animal() {
-        name="generic animal";
-        weight=25;
-    }
-    
-    public void sleep()
-    {
-        System.out.println(name + " sleeping...");
-    }
+    public abstract void Eat();
+    public abstract void HaveDrink();
+    public abstract void Sleep();
+    public abstract void GetRoar();
+    public abstract void Move();
 
-    public void eat() 
-    {
-        System.out.println(name + " eating...");
-    }
-        
+    public void ShowInfo(){
 
-    public void speak() 
-    {
-        System.out.println(name + " speaking...");
+        System.out.println("Ім'я тварини: " + this.Name);
+        System.out.println("Вік тварини: " + this.Age);
+        System.out.println("Вага тварини: " + this.Weight);
+        System.out.println("Тварина хоче їсти?: " + this.WantsToEat);
     }
 
-    public void hunting()
-    {
-        if (is_a_predator == true)
-            System.out.println(name + " hunting...");
-        else
-            System.out.println(name + " it is not a predator");
-    
-    }
-    
-    public void play() 
-    {
-        System.out.println(name + "is playing...");
-    }
-    
-    public String toString() 
-    {
-        return "My animal:" + "\nName:\t" + name + "\nWeight:\t" + weight+" kg";
+    /**
+     *
+     * Get name
+     *
+     * @return String
+     */
+    public String GetName(){
+
+        return this.Name;
     }
 
- 
+    /**
+     *
+     * Get age
+     *
+     * @return int
+     */
+    public int GetAge(){
+
+        return this.Age;
+    }
+
+    /**
+     *
+     * Set age
+     *
+     * @param age  the age
+     */
+    public void SetAge(int age){
+
+        if(age > 0) {
+            this.Age = age;
+        }
+        else System.out.println("Помилка! Вік не може бути менший за 1");
+    }
+
+    /**
+     *
+     * Get weight
+     *
+     * @return float
+     */
+    public float GetWeight(){
+
+        return this.Weight;
+    }
+
+    /**
+     *
+     * Set weight
+     *
+     * @param weight  the weight
+     */
+    public void SetWeight(float weight){
+
+        if(weight > 0.1f){
+            this.Weight = weight;
+        }
+        else System.out.println("Помилка! Вага не може бути менший за 0.1");
+    }
 }
